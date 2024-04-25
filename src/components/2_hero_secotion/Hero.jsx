@@ -42,7 +42,7 @@ function Hero() {
               className={` img-popup fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50  w-full h-full bg-popupMenu  backdrop-blur duration-1000`}
             >
               <img
-                src="../../../public/me-modified.png"
+                src="./me-modified.png"
                 alt="me-main-section"
                 className=" w-[80%]  md:w-1/3  rounded-full p-0.5 border border-blueElzero dark:border-orange shadow-inner cursor-pointer absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 "
               />
