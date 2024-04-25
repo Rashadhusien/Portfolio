@@ -148,17 +148,6 @@ export const myProjects = [
     moreUrl: "https://rashadhusien.github.io/Design_Tailwind/",
   },
   {
-    id: 1,
-    category: ["html&css", "reactjs"],
-    imgUrl: "./prayertimings.png",
-    heading: "prayers-timings",
-    paragraph:
-      "Lorem ipsum dolor sit amet consectetur elit adipisicing . Extempore dolor in, accusantium laudantium accusamus.",
-    linkActiveUrl: "https://github.com/Rashadhusien",
-    githubUrl: "https://github.com/Rashadhusien/prayers-timings",
-    moreUrl: "https://keen-paprenjak-733d78.netlify.app/",
-  },
-  {
     id: 13,
     category: ["html&css", "JavaScript"],
     imgUrl: "./guessThewordGame.png",
@@ -168,5 +157,16 @@ export const myProjects = [
     linkActiveUrl: "https://github.com/Rashadhusien",
     githubUrl: "https://github.com/Rashadhusien/Guess-the-word",
     moreUrl: "https://rashadhusien.github.io/Guess-the-word/",
+  },
+  {
+    id: 14,
+    category: ["reactjs", "JavaScript"],
+    imgUrl: "./prayertimings.png",
+    heading: "prayers-timings",
+    paragraph:
+      "Lorem ipsum dolor sit amet consectetur elit adipisicing . Extempore dolor in, accusantium laudantium accusamus.",
+    linkActiveUrl: "https://github.com/Rashadhusien",
+    githubUrl: "https://github.com/Rashadhusien/prayers-timings",
+    moreUrl: "https://keen-paprenjak-733d78.netlify.app/",
   },
 ];
