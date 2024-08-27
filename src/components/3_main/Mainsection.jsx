@@ -68,14 +68,16 @@ function Mainsection() {
           return (
             <article
               key={item.id}
-              className=" h-[350px] flex flex-col justify-between card duration-300 rounded-lg overflow-hidden max-w-[266px]  border-2 border-bordercard dark:border-opacityorange hover:border-blueElzero dark:hover:border-orange hover:rotate-1 hover:scale-[1.01]  dark:bg-tograd bg-cardlight shadow-4xl"
+              className=" h-[350px] flex flex-col  card duration-300 rounded-lg overflow-hidden max-w-[266px]  border-2 border-bordercard dark:border-opacityorange hover:border-blueElzero dark:hover:border-orange hover:rotate-1 hover:scale-[1.01]  dark:bg-tograd bg-cardlight shadow-4xl"
             >
-              <img
-                src={item.imgUrl}
-                alt={`alt-${item.imgUrl}`}
-                className="w-full flex-grow"
-              />
-              <div className="box  py-3 px-2 w-full">
+              <div className=" rounded-lg overflow-hidden max-h-[200px]">
+                <img
+                  src={item.imgUrl}
+                  alt={`alt-${item.imgUrl}`}
+                  className="w-full flex-grow max-h-full object-cover rounded-lg "
+                />
+              </div>
+              <div className="box py-3 px-2 w-full">
                 <h2 className=" text-titlelight dark:text-title lowercase  text-xl font-bold ">
                   {item.heading}
                 </h2>

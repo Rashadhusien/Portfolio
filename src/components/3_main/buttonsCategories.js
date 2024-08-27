@@ -12,7 +12,7 @@ export const buttonsCategories = [
   {
     id: 3,
     btnCategory: "reactjs",
-    displayName: "reactjs",
+    displayName: "React Js",
   },
   {
     id: 4,
@@ -23,5 +23,10 @@ export const buttonsCategories = [
     id: 5,
     btnCategory: "tailwind",
     displayName: "tailwind",
+  },
+  {
+    id: 6,
+    btnCategory: "nextjs",
+    displayName: "Next Js",
   },
 ];

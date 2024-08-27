@@ -8,9 +8,7 @@ function Hero() {
   const lottieRef = useRef();
 
   const text =
-    "S-o-f-t-w-a-r-e- -E-n-g-i-n-e-e-r- -,- F-r-e-e-l-a-n-c-e-r- -,- -F-r-o-n-t- -E-n-d- -D-e-v-l-o-p-e-r".split(
-      "-"
-    );
+    "F-r-e-e-l-a-n-c-e-r- -,- -F-r-o-n-t- -E-n-d- -D-e-v-l-o-p-e-r".split("-");
 
   const [imgpopup, setimgpopup] = useState(false);
 
