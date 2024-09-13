@@ -12,6 +12,8 @@ function Hero() {
 
   const [imgpopup, setimgpopup] = useState(false);
 
+  const profile = "profile-rm.png";
+
   return (
     <section
       className="hero flex mt-12 items-center "
@@ -25,9 +27,9 @@ function Hero() {
       <section className="left-section  grow">
         <div className="parent-avatar flex items-end gap-1 min-h-24">
           <motion.img
-            src="./me-modified.png"
+            src={profile}
             alt="me-main-section"
-            className=" w-24  rounded-full p-0.5 border border-blueElzero dark:border-orange shadow-inner cursor-pointer active:scale-150 hover:scale-150"
+            className=" w-24  dark:bg-[#18181b]   rounded-full p-0.5 border border-blueElzero dark:border-orange shadow-inner cursor-pointer active:scale-150 hover:scale-150"
             initial={{ transform: " scale(0)" }}
             animate={{ transform: "scale(1.1)" }}
             transition={{ damping: 8, type: "spring", stiffness: 100 }}
@@ -40,9 +42,9 @@ function Hero() {
               className={` img-popup fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50  w-full h-full bg-popupMenu  backdrop-blur duration-1000`}
             >
               <img
-                src="./me-modified.png"
+                src={profile}
                 alt="me-main-section"
-                className=" w-[80%]  md:w-1/3  rounded-full p-0.5 border border-blueElzero dark:border-orange shadow-inner cursor-pointer absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 "
+                className=" w-[80%] bg-white zoomed-image dark:bg-[#18181b]  md:w-1/3  rounded-full p-0.5 border border-blueElzero dark:border-orange shadow-inner cursor-pointer absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 "
               />
             </div>
           )}
@@ -83,7 +85,6 @@ function Hero() {
               className="duration-300 hover:text-xl  text-lg text-icon-hover hover:text-icon-hover-light dark:hover:text-orange icon-twitter"
             />
           </li>
-
           <li>
             <a
               href="https://github.com/Rashadhusien"
