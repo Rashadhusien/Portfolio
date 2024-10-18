@@ -4,11 +4,11 @@ import developer from "../../animation/developer.json";
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 
+
 function Hero() {
   const lottieRef = useRef();
 
-  const text =
-    "F-r-e-e-l-a-n-c-e-r- -,- -F-r-o-n-t- -E-n-d- -D-e-v-l-o-p-e-r".split("-");
+  const jopTitle = "Freelancer , Front End Developer 👩‍💻";
 
   const [imgpopup, setimgpopup] = useState(false);
 
@@ -51,12 +51,12 @@ function Hero() {
         </div>
         <div className="text">
           <motion.h1
-            className="title text-4xl font-bold my-6 text-primary dark:text-primarylight max-w-[580px]"
+            className="title text-5xl leading-[70px] font-bold my-6 text-primary dark:text-primarylight max-w-[580px]"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 3 }}
           >
-            {text.map((el, i) => (
+            {jopTitle.split("").map((el, i) => (
               <motion.span
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}

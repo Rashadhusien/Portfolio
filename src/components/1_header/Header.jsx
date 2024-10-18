@@ -29,7 +29,7 @@ function Header() {
           setshowmodel(false);
         }
       }}
-      className=" flex  rlative items-center justify-between sm:justify-around px-9 mt-5 pb-3 "
+      className=" flex  relative items-center justify-between sm:justify-around px-9 mt-5 pb-3 "
     >
       <div className="hidden sm:block" />
 

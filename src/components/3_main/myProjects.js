@@ -3,6 +3,7 @@ import { v4 as uuid } from "uuid";
 // ======== categories ========
 // html&css
 // JavaScript
+// reactjs
 // nextjs
 // Bootstrap
 // tailwind
@@ -162,7 +163,7 @@ export const myProjects = [
   },
   {
     id: uuid(),
-    category: ["nextjs", "JavaScript"],
+    category: ["reactjs", "JavaScript"],
     imgUrl: "./prayertimings.png",
     heading: "prayers-timings",
     paragraph:

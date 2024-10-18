@@ -15,6 +15,11 @@ export const buttonsCategories = [
     displayName: "Next Js",
   },
   {
+    id: 3,
+    btnCategory: "react",
+    displayName: "React Js",
+  },
+  {
     id: 4,
     btnCategory: "Bootstrap",
     displayName: "Bootstrap",
